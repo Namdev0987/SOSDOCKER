@@ -103,11 +103,11 @@ SESSION_SERIALIZER = "django.contrib.sessions.serializers.PickleSerializer"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'db',
+        'HOST': 'localhost',
         'PORT': '3306',
         'NAME': 'mydatabase',
-        'USER': 'myuser',
-        'PASSWORD': 'mypassword',
+        'USER': 'root',
+        'PASSWORD': 'root',
     }
 }
 
